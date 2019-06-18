@@ -1,5 +1,5 @@
 #header{
-    width:67%;
+    width:65%;
     height:200px;
     display:grid;
     grid-template-columns:35% 33% 32%;
@@ -10,7 +10,7 @@
 }
 
 .info{
-    width:67%;
+    width:65%;
     height:670px;
     display:grid;
     grid-template-rows:70% 15% 15%;
@@ -48,7 +48,7 @@
 }
 
 .buttons{
-    width:67%;
+    width:65%;
     height:200px;
     display:grid;
     grid-template-rows:100%;

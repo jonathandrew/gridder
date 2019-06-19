@@ -110,7 +110,8 @@
 
 }
 
-.your-girl{grid-row: 1;
+.your-girl{
+    grid-row: 1;
     grid-column:1, span 1;
 
 }
@@ -120,10 +121,14 @@
     grid-column:2, span 3;
 }
 
-.crazy-talk a{text-decoration:none;
-color:grey;}
+.crazy-talk a{
+    text-decoration:none;
+    color:grey;
+}
 
-.crazy-talk a:nth-child(1){color:lightskyblue;}
+.crazy-talk a:nth-child(1){
+    color:lightskyblue;
+}
 
 
 .notes{

@@ -1,5 +1,5 @@
 #header{
-    width:65%;
+    width:67%;
     height:200px;
     display:grid;
     grid-template-columns:35% 33% 32%;
@@ -9,14 +9,18 @@
     color:white;
 }
 
+.battery{ padding-left:200px}
+
+.search{ padding-left:75px}
+
+
 .info{
-    width:65%;
+    width:67%;
     height:670px;
     display:grid;
     grid-template-rows:70% 15% 15%;
     grid-template-columns:33% 33% 33%;
     font-size:20px;
-
 
 }
 
@@ -31,13 +35,23 @@
     grid-column:1/span 1;
     border:1px solid grey;
     border-left:none;
+    padding-left:30px
 
+}
+
+.tweets p:nth-child(2){
+    color:grey;
 }
 
 .following{
     grid-row:2;
     grid-column:2/ span 1;
     border: 1px solid grey;
+    padding-left:30px
+}
+
+.following p:nth-child(2){
+    color:grey;
 }
 
 .followers{
@@ -45,10 +59,15 @@
     grid-column:3/span 1;
     border:1px solid grey;
     border-right:none;
+    padding-left:30px
+}
+
+.followers p:nth-child(2){
+    color:grey;
 }
 
 .buttons{
-    width:65%;
+    width:67%;
     height:200px;
     display:grid;
     grid-template-rows:100%;
@@ -59,15 +78,23 @@
 .settings{
     grid-row:3;
     grid-column:1/span 1;
+}
+
+.settings img{
     border:1px solid grey;
+    padding:0px 30px;
+    margin-top:7px
 }
 
 .follow-button{
     grid-row:3;
     grid-column:3/span 1;
-    border:1px solid skyblue;
-    color:lightblue;
 
+}
+
+.follow-button img{
+    border: 3px solid lightblue;
+    margin-top:15px
 }
 
 .footer{
